@@ -1,0 +1,35 @@
+ api/rest/QueryHost  查询主机设备详情
+  {
+	"host": "47.96.22.206",
+	"user": "hcy",
+	"password": "Hcycom!@#",
+	"os": "linux",
+	"port": 22
+    }
+ api/rest/PingHost 获取主机与其他ip的时延
+  {
+	"host": "47.96.22.206",
+	"user": "hcy",
+	"password": "Hcycom!@#",
+	"os": "linux",
+	"port": 22,
+	"ping":"www.baidu.com"
+    }
+ api/rest/StatusHost 获取主机的连通情况
+  {
+	"host": "47.96.22.206",
+	"user": "hcy",
+	"password": "Hcycom!@#",
+	"os": "linux",
+	"port": 22
+    }
+ api/rest/CurrencyHost 设备主机的通用接口指定ansible模块和指令获取相应信息
+  {
+	"host": "47.96.22.206",
+	"user": "hcy",
+	"password": "Hcycom!@#",
+	"os": "linux",
+	"port": 22,
+	"module":"shell".
+	"args":"ll"
+    }
